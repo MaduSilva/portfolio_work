@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Maria Eduarda</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- utilização de bootstrap, logo, o site é responsivo -->
+    <div class="container">
+        <br />
+        <h1 class="text-center">
+            Portfólio Pessoal
+        </h1>
+        <br />
+        <!-- tabs do bootstrap, primeiro declara-se as abas que irão existir -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" data-toggle="tab" href="#AboutMe">Sobre mim</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-toggle="tab" href="#Experience">Experiência Profissional</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-toggle="tab" href="#Formation">Formação</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-toggle="tab" href="#Portfolio">Portifólio</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-toggle="tab" href="#Contact ">Contato</button>
+            </li>
+        </ul>
+        <!-- agora, a partir do id adiciona-se o conteúdo de cada aba -->
+        <div class="tab-content">
+            <div id="AboutMe" class="container tab-pane active">
+                <br />
+                <div class="AboutMe-content">
+                    <h4 class="title"> Maria Eduarda | 19 anos | Software Developer</h4>
+                    <p>
+
+                        Sou extremamente curiosa e gosto muito de estudar coisas novas, tenho bastante facilidade para
+                        aprender também. Atualmente tenho muito interesse na área de frontend, além de criar códigos,
+                        meus hoobies são ler, ouvir música e assistir vídeos no youtube.
+                    </p>
+                    <img src="https://cdn.dribbble.com/users/2938327/screenshots/11235947/04_4x.jpg">
+                </div>
+            </div>
+            <div id="Experience" class="container tab-pane fade">
+                <br />
+                <p>
+                <h4>Ame Digital</h4>
+
+                Desenvolvedora Frontend Júnior
+                <br />
+                <!-- pequeno script para calcular quantos meses já se passaram depois de 13/12/2021 -->
+                <script>
+                    var date = new Date;
+                    var date2 = new Date("2021/12/13");
+                    var total = (date.getFullYear() - date2.getFullYear()) * 12 + (date.getMonth() - date2.getMonth());
+                    document.write("dezembro de 2021 - presente (" + total + " meses)")
+                </script>
+                <br />
+                São Paulo, Brasil
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        Desenvolvimento de soluções, melhorias e correções, em Banking/ Merchant
+                        Experience, na equipe de Cash Management (desde desenho da solução à
+                        implementação).
+                    </li>
+                    <li>
+                        Atuando com entrada e saída de dinheiro (Cash-In e Cash-Out) de diversas
+                        formas, desde integrações com parceiros e entre carteiras internas.
+                    </li>
+                    <li>
+                        Utilização principal de Javascript (Foco em ReactJS)
+                    </li>
+                    <li>
+                        Utilização de Scrum e Kanban, Clean code, Versionamento git
+                    </li>
+                </ul>
+
+                </p>
+                <p>
+                <h4>Carambola</h4>
+
+                Desenvolvedora Frontend Júnior
+                <br />
+                agosto de 2021 - dezembro de 2021 (5 meses)
+                <br />
+                São Paulo, Brasil
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        Desenvolvimento de aplicação react.js
+                    </li>
+                    <li>
+                        Gerenciamento de projetos com uso de scrum, kanban, azure devops
+                    </li>
+                    <li>
+                        Versionamento de código (git e github)
+                    </li>
+                    <li>
+                        Scrum, Kanban, Azure Devops, Git, Javascript, React
+                    </li>
+                </ul>
+                <br />
+                </p>
+            </div>
+            <div id="Formation" class="container tab-pane fade">
+                <br />
+
+                <p>
+                <ul>
+                    <h6>Superior</h6>
+                    <li>
+
+                        Univesp Oficial
+                        Bacharelado em Tecnologia da Informação, Engenharia de
+                        Computação · (2022 - 2027)
+                    </li>
+                    <li>
+                        UNINTER Centro Universitário Internacional
+                        Tecnologia em Análise e Desenvolvimento de Sistemas, Tecnologia da
+                        Informação · (2021 - 2023)
+                    </li>
+                    <br />
+                    <h6>Idiomas</h6>
+                    <li>
+                        UNINTER Centro Universitário Internacional
+                        Curso de Língua Inglesa U-best - Intermediate, Língua Inglesa e Literaturas de
+                        Língua Inglesa · (fevereiro de 2022 - fevereiro de 2022)
+                    </li>
+                    <br />
+                    <h6>Ténico</h6>
+                    <li>
+                        Escola SENAI de Informática
+                        Desenvolvimento de Sistemas, Informática · (2020 - 2021)
+                    </li>
+                    <br />
+                    <h6>Especialização</h6>
+                    <li>
+                        SAGA - School of Art, Games and Animation
+                        Curso Start, Design Gráfico · (2018 - 2020)
+                    </li>
+                </ul>
+                </p>
+            </div>
+
+            <div id="Portfolio" class="container tab-pane fade">
+                <br />
+                <h4>
+                    Portfólio:
+                </h4>
+                <p>
+                    <!-- lista retirada do bootstrap, dentro de cada li existe um a com um link para página respectiva -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="https://github.com/MaduSilva/tictactoe">Jogo da velha desenvolvido em Java</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://github.com/MaduSilva/TrabalhoLogica">Verificador de nota em Python</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://github.com/MaduSilva/ContratoSeguroReact">TCC - Site para RH em React</a>
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div id="Contact" class="container tab-pane fade">
+                <br />
+                <h4>
+                    Linkedin:
+                </h4>
+                <!-- botão que redireciona para meu linkedin -->
+                <p>
+                    <a class="btn btn-primary" href="https://www.linkedin.com/in/madudev/" role="button">
+                        Meu linkedin!
+                    </a>
+                </p>
+
+                <h5>
+                    Ou se preferir deixe uma mensagem e responderei assim que possível! :
+                </h5>
+                <!--input retirados do bootstrap -->
+                <div class="input-group">
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Seu Nome</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Default"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
+
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Seu Email</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Default"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
+
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Mensagem</span>
+                        </div>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                </div>
+                <!--ao clicar, um alert de confirmação é ativado e os campos são resetados, é apenas visual e não possui integração com api nem banco de dados -->
+                <button onclick="Message(), Clean()" type="button" class="btn btn-success mt-3">Enviar</button>
+
+            </div>
+
+
+        </div>
+</body>
+
+</html>

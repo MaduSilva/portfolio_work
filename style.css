@@ -1,0 +1,32 @@
+/* todo o site possui a fonte ubuntu */
+*{
+    font-family: 'Ubuntu';
+}
+
+/* Alinhamento de itens dentro da sessão sobre mim */
+.AboutMe-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* todos os h1 possuem cor roxa */
+h1{
+    color: rgb(132, 132, 227);
+}
+
+/* todos os p possuem fonte de tamanho 18 */
+ p {
+    font-size: 18px;
+}
+
+/* adicionando cor roxa escuro (classe aplicada nos titulos) */
+.title{
+    color: rgb(35, 35, 69);
+}
+
+/* a imagem da sessão sobre mim possui 50% de tamanho */
+#AboutMe img {
+    width: 50%;
+}
